@@ -11,7 +11,7 @@ class Chatbot:
         response = self.co.generate(
             model=model_id,
             prompt=user_input,
-            max_tokens=50
+            max_tokens=5000
         )
 
         # Print the generated joke
