@@ -2,7 +2,7 @@ import cohere
 
 class Chatbot:
     def __init__(self):
-        api_key = 'tzfbnxX1Qt4F3UFelwG9pimwVTON7hxcyIC2hPNm'
+        api_key = ''
         self.co = cohere.Client(api_key)
     def get_response(self, user_input):
         model_id = 'command-xlarge-nightly'
